@@ -98,3 +98,11 @@ if(CLANG_TIDY_EXE)
         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
         COMMENT "Running clang-tidy")
 endif()
+
+# ---------------------------------------------------------------------------
+# Tests
+# ---------------------------------------------------------------------------
+if(PSUC_BUILD_TESTS)
+    enable_testing()
+    add_subdirectory(tests)
+endif()

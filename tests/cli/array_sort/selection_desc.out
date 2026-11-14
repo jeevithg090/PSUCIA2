@@ -1,0 +1,2 @@
+Original: [5, 1, 4, 2, 8, 0]
+Sorted (selection sort, descending): [8, 5, 4, 2, 1, 0]
